@@ -2,6 +2,8 @@
 
 I don't want to repeat myself, so send these files to github.
 
-## Usage
+## Why
 
-sh install.sh
+
+
+

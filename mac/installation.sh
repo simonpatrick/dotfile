@@ -19,9 +19,10 @@ brew install the_silver_searcher
 brew install graphviz
 
 # install emacs
-rm /usr/bin/emacs
-rm -rf /usr/share/emacs
-brew install emacs --cocoa --srgb --with-x
+# rm /usr/bin/emacs
+# rm -rf /usr/share/emacs
+# brew install emacs --cocoa --srgb --with-x
+# brew install spaceemacs
 # ln -s /usr/local/Cellar/emacs/24.3/Emacs.app /Applications/
 
 # install zsh
