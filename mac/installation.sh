@@ -44,7 +44,8 @@ echo "[ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/aut
 
 # install mvim
 echo "6. install mvim"
-brew install macvim
+brew install macvim --with-cscope --with-lua
+brew linkapps macvim
 # install groovy and gradle
 brew install groovy
 brew install gradle
