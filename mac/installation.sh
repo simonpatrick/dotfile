@@ -52,6 +52,5 @@ brew install gradle
 # copy iterm2-color-schemas
 # git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git /Users/patrick/settings
 brew install tmux
-
 # install plugin manager for xcode
 curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh

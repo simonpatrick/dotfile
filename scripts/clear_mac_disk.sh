@@ -21,8 +21,9 @@ sudo rm -rf /Library/Logs/*
 # clean users/caches
 
 echo "remove current users caches"
-rm -rf /Users/patrick/Library/Caches
-rm -rf /Users/patrick/Library/Logs
+echo "HOME DIR is $HOME"
+rm -rf $HOME/Library/Caches
+rm -rf $HOME/Library/Logs
 
 # clean gradle caches
 echo "remove gradle caches"
