@@ -30,4 +30,4 @@ rm -rf ~/.gradle/caches/*
 
 # clear caches
 echo "remove caches "
-rm -rf ~/.caches/*
+rm -rf ~/.cache/*
