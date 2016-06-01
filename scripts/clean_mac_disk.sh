@@ -6,8 +6,7 @@ RUBY_VERSION=2.2.0
 rm -rf /usr/local/lib/ruby/gems/$RUBY_VERSION/cache/*
 
 # clearn /private/folder
-
-sudo rm -rf /private/var/folders/*
+# sudo rm -rf /private/var/folders/*
 sudo rm -rf /private/var/log/*
 
 ## clean /Library

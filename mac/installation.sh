@@ -4,10 +4,10 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install tools, brew install tools in /usr/local/Cellar
+brew update
 # ls -l bin
 brew install wget
 brew install curl
-
 
 #install go
 brew install golang
@@ -54,3 +54,9 @@ brew install gradle
 brew install tmux
 # install plugin manager for xcode
 curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
+
+# install mysql
+brew install mysql
+
+# install mongodb
+brew install mongodb
